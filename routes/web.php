@@ -36,3 +36,11 @@ Route::group(['prefix' => 'mascotas'], function() {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/', 'PetsController@index');
+Route::get('/about', 'PetsController@about');
+Route::get('/photo', 'PetsController@photo');
+Route::get('/adopcion', 'PetsController@adopcion');
+Route::get('/voluntario', 'PetsController@voluntario');
+Route::get('/noticias', 'PetsController@noticia');
+Route::get('/contacto', 'PetsController@contacto');
