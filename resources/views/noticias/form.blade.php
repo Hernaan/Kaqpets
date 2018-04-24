@@ -10,14 +10,14 @@
         <div class="form-group row required">
             {!! Form::label("not_titulo","Title",["class"=>"col-form-label col-md-3 col-lg-2"]) !!}
             <div class="col-md-8">
-                {!! Form::text("not_titulo",null,["class"=>"form-control".($errors->has('not_titulo')?" is-invalid":""),"autofocus",'placeholder'=>'Title']) !!}
+                {!! Form::text("not_titulo",null,["class"=>"form-control".($errors->has('not_titulo')?" is-invalid":""),"required","autofocus",'placeholder'=>'Title']) !!}
                 <span id="error-title" class="invalid-feedback"></span>
             </div>
         </div>
         <div class="form-group row required">
             {!! Form::label("not_sub_titulo","SubTitle",["class"=>"col-form-label col-md-3 col-lg-2"]) !!}
             <div class="col-md-8">
-                {!! Form::text("not_sub_titulo",null,["class"=>"form-control".($errors->has('not_sub_titulo')?" is-invalid":""),"autofocus",'placeholder'=>'SubTitle']) !!}
+                {!! Form::text("not_sub_titulo",null,["class"=>"form-control".($errors->has('not_sub_titulo')?" is-invalid":""),"autofocus","required",'placeholder'=>'SubTitle']) !!}
                 <span id="error-subtitle" class="invalid-feedback"></span>
             </div>
         </div>
@@ -25,7 +25,7 @@
         <div class="form-group row required">
             {!! Form::label("not_contenido","Content",["class"=>"col-form-label col-md-3 col-lg-2"]) !!}
             <div class="col-md-8">
-                {!! Form::textarea("not_contenido",null,["class"=>"form-control".($errors->has('not_contenido')?" is-invalid":""),'placeholder'=>'Content']) !!}
+                {!! Form::textarea("not_contenido",null,["class"=>"form-control".($errors->has('not_contenido')?" is-invalid":""),"required", 'placeholder'=>'Content']) !!}
                 <span id="error-content" class="invalid-feedback"></span>
             </div>
         </div>

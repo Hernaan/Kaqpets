@@ -14,9 +14,11 @@
 Route::get('/welcome', function () {
     return view('welcome');
 });
-Route::get('/admin', function () {
-    return view('indexAdmin');
-});
+
+Route::get('/admin', [
+  'middleware' => 'auth',
+  'uses' => 'HomeController@indexAdmin'
+  ]);
 
 Route::group(['prefix' => 'noticias'], function() {
   Route::get('/',[
