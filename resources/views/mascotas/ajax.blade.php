@@ -1,3 +1,5 @@
+@guest
+@else
 @extends('layouts.app')
 @section('css')
   <style>
@@ -35,3 +37,5 @@
 @section('js')
   <script src="{{ asset('js/mascota-ajaxcrud.js') }}"></script>
 @endsection
+
+@endguest

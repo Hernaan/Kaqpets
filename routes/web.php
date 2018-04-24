@@ -19,7 +19,10 @@ Route::get('/admin', function () {
 });
 
 Route::group(['prefix' => 'noticias'], function() {
-  Route::get('/', 'NoticiaController@index');
+  Route::get('/',[
+    'middleware' => 'auth',
+    'uses' => 'NoticiaController@index'
+    ]);
   Route::match(['get', 'post'], 'create', 'NoticiaController@create');
   Route::match(['get', 'put'], 'update/{id}', 'NoticiaController@update');
   Route::get('show/{id}', 'NoticiaController@show');
@@ -27,7 +30,10 @@ Route::group(['prefix' => 'noticias'], function() {
 });
 
 Route::group(['prefix' => 'mascotas'], function() {
-  Route::get('/', 'MascotaController@index');
+  Route::get('/',[
+    'middleware' => 'auth',
+    'uses' => 'MascotaController@index'
+    ]);
   Route::match(['get', 'post'], 'create', 'MascotaController@create');
   Route::match(['get', 'put'], 'update/{id}', 'MascotaController@update');
   Route::get('show/{id}', 'MascotaController@show');
@@ -42,5 +48,5 @@ Route::get('/about', 'PetsController@about');
 Route::get('/photo', 'PetsController@photo');
 Route::get('/adopcion', 'PetsController@adopcion');
 Route::get('/voluntario', 'PetsController@voluntario');
-Route::get('/noticias', 'PetsController@noticia');
+Route::get('/noticia', 'PetsController@noticia');
 Route::get('/contacto', 'PetsController@contacto');
