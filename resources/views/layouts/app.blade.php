@@ -33,9 +33,11 @@
                     <a class="navbar-brand" href="{{ url('/admin') }}">
                         Administracion
                     </a>
-                    <ul class="nav navbar-nav">
+                    @guest
+                    @else
+                    <ul class="nav navbar-nav"><!--
                         <li><a href="#">Link</a></li>
-                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>-->
                         <li class="dropdown">
                           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accesos <span class="caret"></span></a>
                           <ul class="dropdown-menu">
@@ -47,6 +49,7 @@
                           </ul>
                         </li>
                       </ul>
+                      @endguest
                 </div>
 
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
