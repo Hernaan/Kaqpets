@@ -54,9 +54,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<li><a class="active" href="{{url('/')}}"><span data-hover="Inicio">Inicio</span></a></li> 
 						<li><a href="{{url('/about')}}"><span data-hover="Nosotros">Nosotros</span></a></li>
 						<li><a href="{{url('/photo')}}"><span data-hover="Galera">Galeria</span></a></li> 
-						<li><a href="{{url('/adopcion')}}"><span data-hover="Adopciones">Adopciones</span></a></li>
+						<li><a href="{{url('/adopcion')}}"><span data-hover="Como_ayudar">Como Ayudar</span></a></li>
 						<li><a href="{{url('/voluntario')}}"><span data-hover="Voluntariado">Voluntariado</span></a></li>  
-						<li><a href="{{url('/noticias')}}"><span data-hover="Noticias">Noticias</span></a></li> 
+						<li><a href="{{url('/noticia')}}"><span data-hover="Noticias">Noticias</span></a></li> 
 						<li><a href="{{url('/contacto')}}"><span data-hover="Contacto">Contacto</span></a></li>
 					</nav>
 					</ul>
