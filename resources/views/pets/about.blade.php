@@ -8,7 +8,7 @@
 					<div class="about-top-info">
 							<h3>Nosotros</h3>
 							<div class="col-md-4 about-img">
-								<img src="images/pic8.jpg" alt=""/>
+								<img src="images/pic8.jpg" alt=""/ style="height: 400px;">
 							</div>
 							<div class="col-md-8 about-desc">
 								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet

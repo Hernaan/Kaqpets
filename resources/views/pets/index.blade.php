@@ -6,21 +6,21 @@
 		  <div class="callbacks_container">
 			  <ul class="rslides" id="slider">
 				 <li>
-					 <img src="images/3.jpg" alt=""/>
+					 <img src="images/3.jpg" alt="" width="500"/>
 					  <div class="caption">
 						<h2>Como cuidar a tu mascota</h2>
 						<a class="more" href="#">Leer mas</a>
 					  </div>
 				 </li>
 				 <li>
-					 <img src="images/2.jpg" alt=""/>
+					 <img src="images/2.jpg" alt="" width="500"/>
 					  <div class="caption">
 						<h2>Como puedo ayudar</h2>
 						<a class="more" href="#">Leer mas</a>
 					  </div>
 				 </li>
 				 <li>
-					 <img src="images/1.jpg" alt=""/>
+					 <img src="images/1.jpg" alt="" width="500"/>
 					  <div class="caption">
 						<h2>Como ser voluntario</h2>
 						<a class="more" href="#">Leer mas</a>
@@ -42,10 +42,10 @@
 					</div>
 					<div class="col-md-6 images">
 						<div class="img1">
-							<img src="images/a1.jpg" class="img-responsive" alt="" />
+						<img src="images/a1.jpg" class="img-responsive" alt="" width="100" />
 						</div>
 						<div class="img2">
-						<img src="images/a2.jpg" class="img-responsive" alt="" />
+						<img src="images/a2.jpg" class="img-responsive" alt="" width="100" />
 						</div>
 						<div class="clearfix"></div>
 					</div>

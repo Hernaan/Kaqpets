@@ -45,7 +45,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="header-bottom">
 			<div class="container">
 				<div class="logo">
-					<a href="{{url('/')}}"><img src="images/logo.jpg" width="50px" alt="" /></a>
+					<a href="{{url('/')}}"><img src="images/logo.png" width="100px" alt="" /></a>
 				</div>
 				<span class="menu"></span>
 				<div class="top-menu">
